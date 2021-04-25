@@ -10,4 +10,16 @@ A picture below  represents steps of our solution
 
 We first make some preprocessing of PDB files: removing HETATOM, re-numerating residue ids, calculating dssp and sasa, finding exposed amino acids on surface area.
 
+As features for model we used several characteristics:
+*protein length and weight
+*instability index and isoelectric point of protein
+*secondary structure fractions (helix, turn, sheet)
+molar extinction coefficient
+*charge_at_pH and flexibility
+*% of each amino acid type in protein
+*% of hydrophobic atoms of exposed amino acids
+*number of clusters by exposed amino acids
+*volume of clusters
+*average kD of clusters
+*number of TM helixes (by Phobios)
 
