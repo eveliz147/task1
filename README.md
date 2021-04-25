@@ -11,7 +11,7 @@ A picture below  represents steps of our solution
 We first make some preprocessing of PDB files: removing HETATOM, re-numerating residue ids, calculating dssp and sasa, finding exposed amino acids on surface area.
 
 As features for model we used several characteristics:
-Markup:
+
         *protein length and weight
         *instability index and isoelectric point of protein
         *secondary structure fractions (helix, turn, sheet)
