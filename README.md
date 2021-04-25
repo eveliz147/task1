@@ -22,7 +22,7 @@ As features for model we used several characteristics:
  - charge_at_pH and flexibility
  - % of each amino acid type in protein
 
-###Our additional characteristics 
+### Our additional characteristics 
  - % of hydrophobic atoms of exposed amino acids
  - number of clusters by exposed amino acids
  - volume of clusters
