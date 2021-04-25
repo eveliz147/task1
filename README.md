@@ -46,9 +46,9 @@ Graph edges have been connected basing on the measured distance between the near
 ## Model
 
  We had 3 types of fetures: 
-  *standart
-  *custom tabular 
-  *custom graph embeddings.
+  * standart
+  * custom tabular 
+  * custom graph embeddings.
 
 
  We have constructed three types of graphs, where each one encodes one distinct feature about nodes(exposed amino acids) - kd, hydrophobicity and amino acid name. Each graph was then transformed into graph embeddings (vector representation) using the best fitting graph kernel (we’ve tried about five different types). Based on each graph types we trained models (select best for each graph types) and made prediction. Each prediction of such base models were than used as a festures. 
